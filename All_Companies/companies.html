@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./companies.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="./home.css"> -->
+
+    <!-- <link rel="stylesheet" href="../styles/footer.css"> -->
+
+
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- <link rel="stylesheet" href="./home.css"> -->
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/login.css">  -->
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+        footer{
+            font-family: 'Inter';
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar" id="navbar" ></div>
+    <div class="form-popup" id="myForm"></div>
+    <div id="topheading">
+        <h1>Featured companies actively hiring</h1>
+    </div>
+    <div id="container">
+        <div id="both_div_top">
+            <div id="content">
+                <div id="filter">
+                  <div id="filtop">
+                    <i class="fa-sharp fa-solid fa-filter fill" ></i>
+                    <h3 class="fill">Filter</h3>
+                  </div>
+
+                    <div class="firstdrop">
+                        <div class="select_btn" id="sl1">
+                         <span class="btn_txt">Sector</span>
+                         <span class="arrow_dwn">
+                             <i class="fa-sharp fa-solid fa-angle-down"></i>
+                         </span>
+                        </div>
+                        <ul class="list_items">
+                         <li id="IT" class="items">
+                             <span class="checkbox">
+                                 <i class="fa-solid fa-check check-icon"></i>
+                             </span>
+                                 <span  class="item_text">IT Services (18)</span>
+                            
+                         </li>
+                         <li id="BFSI" class="items">
+                             <span class="checkbox">
+                                 <i class="fa-solid fa-check check-icon"></i>
+                             </span>
+                                 <span  class="item_text">BFSI (4)</span>
+                            
+                         </li>
+                         <li id="TECH" class="items">
+                             <span class="checkbox">
+                                 <i class="fa-solid fa-check check-icon"></i>
+                             </span>
+                                 <span  class="item_text">Technology (3)</span>
+                            
+                         </li>
+                         <li id="BPM" class="items">
+                             <span class="checkbox">
+                                 <i class="fa-solid fa-check check-icon"></i>
+                             </span>
+                                 <span  class="item_text">BPM (1)</span>
+                                 
+                         </li>
+                        </ul>
+                       
+ 
+                      </div>
+                      <div class="firstdrop">
+                        <div class="select_btn" id="sl2">
+                            <span class="btn_txt">Industry</span>
+                            <span class="arrow_dwn">
+                                <i class="fa-sharp fa-solid fa-angle-down"></i>
+                            </span>
+                           </div>
+                           <ul class="list_items">
+                            <li class="items">
+                                <span class="checkbox">
+                                    <i class="fa-solid fa-check check-icon"></i>
+                                </span>
+                                    <span class="item_text">
+                                        IT Services & Consulting (18)
+                                        </span>
+                               
+                            </li>
+                            <li class="items">
+                                <span class="checkbox">
+                                    <i class="fa-solid fa-check check-icon"></i>
+                                </span>
+                                    <span class="item_text">
+                                        Analytics / KPO / Research (1)
+                                        </span>
+                               
+                            </li>
+                            <li class="items">
+                                <span class="checkbox">
+                                    <i class="fa-solid fa-check check-icon"></i>
+                                </span>
+                                    <span class="item_text">Electronic Components / Semiconductors (1)
+                                    </span>
+                               
+                            </li>
+                            <li class="items">
+                                <span class="checkbox">
+                                    <i class="fa-solid fa-check check-icon"></i>
+                                </span>
+                                    <span class="item_text">Internet (1)</span>
+                                    
+                            </li>
+                           </ul>
+                      </div>
+                      <div class="firstdrop">
+                        <div class="select_btn" id="sl3">
+                            <span class="btn_txt">Company type</span>
+                            <span class="arrow_dwn">
+                                <i class="fa-sharp fa-solid fa-angle-down"></i>
+                            </span>
+                           </div>
+                           <ul class="list_items">
+                            <li class="items">
+                                <span class="checkbox">
+                                    <i class="fa-solid fa-check check-icon"></i>
+                                </span>
+                                    <span class="item_text">Foreign MNC (17)</span>
+                               
+                            </li>
+                            <li class="items">
+                                <span class="checkbox">
+                                    <i class="fa-solid fa-check check-icon"></i>
+                                </span>
+                                    <span class="item_text">Indian MNC (6)</span>
+                               
+                            </li>
+                            <li class="items">
+                                <span class="checkbox">
+                                    <i class="fa-solid fa-check check-icon"></i>
+                                </span>
+                                    <span class="item_text">Corporate (3)</span>
+                               
+                            </li>
+                            <li class="items">
+                                <span class="checkbox">
+                                    <i class="fa-solid fa-check check-icon"></i>
+                                </span>
+                                    <span class="item_text">BPM (1)</span>
+                                    
+                            </li>
+                           </ul>
+                      </div>
+                      <div class="firstdrop">
+                        <div class="select_btn" id="sl4">
+                            <span class="btn_txt">Nature of business</span>
+                            <span class="arrow_dwn">
+                                <i class="fa-sharp fa-solid fa-angle-down"></i>
+                            </span>
+                           </div>
+                           <ul class="list_items">
+                            <li class="items">
+                                <span class="checkbox">
+                                    <i class="fa-solid fa-check check-icon"></i>
+                                </span>
+                                    <span class="item_text">IT Services (18)</span>
+                               
+                            </li>
+                            <li class="items">
+                                <span class="checkbox">
+                                    <i class="fa-solid fa-check check-icon"></i>
+                                </span>
+                                    <span class="item_text">BFSI (4)</span>
+                               
+                            </li>
+                            <li class="items">
+                                <span class="checkbox">
+                                    <i class="fa-solid fa-check check-icon"></i>
+                                </span>
+                                    <span class="item_text">Technology (3)</span>
+                               
+                            </li>
+                            <li class="items">
+                                <span class="checkbox">
+                                    <i class="fa-solid fa-check check-icon"></i>
+                                </span>
+                                    <span class="item_text">BPM (1)</span>
+                                    
+                            </li>
+                           </ul>
+                      </div>
+                      <div class="firstdrop">
+                        <div class="select_btn" id="sl5">
+                            <span class="btn_txt">Companies</span>
+                            <span class="arrow_dwn">
+                                <i class="fa-sharp fa-solid fa-angle-down"></i>
+                            </span>
+                           </div>
+                           <ul class="list_items">
+                            <li class="items">
+                                <span class="checkbox">
+                                    <i class="fa-solid fa-check check-icon"></i>
+                                </span>
+                                    <span class="item_text">Accolite Digital</span>
+                               
+                            </li>
+                            <li class="items">
+                                <span class="checkbox">
+                                    <i class="fa-solid fa-check check-icon"></i>
+                                </span>
+                                    <span class="item_text">Airtel</span>
+                               
+                            </li>
+                            <li class="items">
+                                <span class="checkbox">
+                                    <i class="fa-solid fa-check check-icon"></i>
+                                </span>
+                                    <span class="item_text">Amazon</span>
+                               
+                            </li>
+                            <li class="items">
+                                <span class="checkbox">
+                                    <i class="fa-solid fa-check check-icon"></i>
+                                </span>
+                                    <span class="item_text">Applied Materials</span>
+                                    
+                            </li>
+                           </ul>
+                      </div>
+                 </div>
+ 
+                <div id="listing_div_first">
+                    <div id="listing_div_second">
+                        <h3>Showing</h3>
+                        <div id="append_div"></div>
+                        <div id="change_page">
+                            <div id="change_page_in_div">
+                                <span>Page 1-2</span>
+                                <a href=""><button class="changebtn">< Previous</button></a>
+                                <div id="pagect">1</div>
+                                <button class="changebtn">Next></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div id="border">
+        <div id="footerFirst">
+            <div id="footerfirst">
+                <img src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png" alt="">
+                <p>Connect with us</p>
+                <div>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+            <div>
+                <p>About us</p>
+                <p>Careers</p>
+                <p>Employer home</p>
+                <p>Sitemap</p>
+            </div>
+            <div>
+                <p>Help center</p>
+                <p>Summons/Notices</p>
+                <p>Grievances</p>
+                <p>Report issue</p>
+            </div>
+            <div>
+                <p>Privacy policy</p>
+                <p>Terms & conditions</p>
+                <p>Fraud alert</p>
+                <p>Trust & safety</p>
+            </div>
+            <div id="footerlast">
+                <h4>Apply on the go</h4>
+                <p>Get real-time job updates on our App</p>
+                <div>
+                    <img src="https://static.naukimg.com/s/0/0/i/new-homepage/android-app.png" alt="">
+                    <img src="https://static.naukimg.com/s/0/0/i/new-homepage/ios-app.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="footerLast">
+            <div>
+                <img src="https://static.naukimg.com/s/0/0/i/new-homepage/infoedge-logo.svg" alt="">
+            </div>
+            <div>
+                <div><p>All trademarks are the property of their respective owners
+                </p>
+                <p> All rights reserved © 2022 Info Edge (India) Ltd.</p></div>
+            </div>
+            <div>
+                <p>Our businesses</p>
+            </div>
+            <div id="footerSlide"></div>
+        </div>
+    </div> 
+</footer>
+</html>
+<script type="module" src="./companies.js"></script>
